@@ -52,7 +52,7 @@ async def cb_navg(bot, update: CallbackQuery):
         VERIFY[str(chat_id)] = admin_list
     
     if not ((user_id == ruser_id) or (user_id in admin_list)): # Checks if user is same as requested user or is admin
-        await update.answer("Nice Try ;)",show_alert=True)
+        await update.answer("Nice Try🤓,, This Not For You 😡 ;)",show_alert=True)
         return
 
 
@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i> Join @MM_All_Backup Found</i> <code>{leng}</code> <i>Results For Your Request:</i> <code>{query}</code>"
+    text=f"<i>Join @MM_All_Backup Found</i> <code>{leng}</code> <i>Results For Your Request:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
