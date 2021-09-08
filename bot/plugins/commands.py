@@ -50,7 +50,7 @@ async def start(bot, update):
         InlineKeyboardButton('📽️Fᴏʀ ꜱᴇʀɪᴇꜱ', url='https://t.me/mm_seriess'),
         InlineKeyboardButton('🎥Fᴏʀ ᴍᴏᴠɪᴇꜱ', url ='https://t.me/mm_moviess')
     ],[
-        InlineKeyboardButton('🏵️ SHERE & SUPPORT 🏵️', url='http://t.me/share/url?url=%2A%2AHai+Bro%20%E2%9D%A4%EF%B8%8F%2C%20%2A%2A%0A__Today%20I%20Just%20Found%20Out%20A%20Movie+Group%20Which%20Uploads__%20%2A%2ARequested+Movies%20In%20Second's%2A%2A%F0%9F%A5%B0.%0A%2A%2AJσιи+Nσω%20%20%3A%20%40MM_MOVIESS+👌%F0%9F%94%A5%2A%2A%0A%2A%2AJσιи+Nσω%20%20%3A%20%40MM_SERIESS+👌%F0%9F%94%A5%2A%2A.%0A%2A%2AJσιи+Nσω%20%20%3A%20%40MM_NewOTTUpdatesS+👌%F0%9F%94%A5%2A%2A')
+        InlineKeyboardButton('🏵️ SHERE & SUPPORT 🏵️', url='http://t.me/share/url?url=@MM_MOVIESS')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
